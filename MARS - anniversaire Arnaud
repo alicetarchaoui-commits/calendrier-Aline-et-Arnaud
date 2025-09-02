@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Calendrier Arnaud & Aline</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      text-align: center;
+      padding: 30px;
+    }
+    h1 {
+      color: #333;
+    }
+    .event {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 400px;
+    }
+    .event img {
+      max-width: 200px;
+      margin-top: 10px;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    a.button:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎉 Calendrier Arnaud & Aline 🎉</h1>
+  <p>Scannez un QR code ou téléchargez l’événement pour l’ajouter à votre agenda.</p>
+
+  <div class="event">
+    <h2>🎂 Gâteau d'anniversaire</h2>
+    <p>10 mars 2026 à 19h00 – Chez Arnaud & Aline</p>
+    <a class="button" href="anniversaire_10_mars_2026.ics">📥 Télécharger l'événement</a>
+    <br>
+    <img src="qr_anniversaire_10_mars_2026.png" alt="QR code Anniversaire">
+  </div>
+
+</body>
+</html>
