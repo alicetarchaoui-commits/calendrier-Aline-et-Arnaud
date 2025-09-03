@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendrier Arnaud & Aline//FR
+BEGIN:VEVENT
+UID:galette-2026-01-06@arnaud-aline
+DTSTAMP:20250903T103409
+DTSTART;TZID=Europe/Paris:20260106T100000
+DTEND;TZID=Europe/Paris:20260106T120000
+SUMMARY:Galette des Rois au bureau 👑🥧
+LOCATION:Bureau
+DESCRIPTION:Ramener la galette des Rois pour partager un moment convivial avec les collègues.
+END:VEVENT
+END:VCALENDAR
