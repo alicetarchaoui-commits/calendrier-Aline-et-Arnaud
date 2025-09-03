@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Calendrier Arnaud & Aline</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      text-align: center;
+      padding: 30px;
+    }
+    h1 {
+      color: #333;
+    }
+    .event {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 400px;
+    }
+    .event img {
+      max-width: 200px;
+      margin-top: 10px;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    a.button:hover {
+      background: #45a049;
+    }
+    .instructions {
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎉 Calendrier Arnaud & Aline 🎉</h1>
+  <p>Scannez un QR code ou téléchargez l’événement pour l’ajouter à votre agenda.</p>
+
+  <div class="event">
+    <h2>🎂 Anniversaire Arnaud</h2>
+    <p>10 mars 2026 – 19h00</p>
+    <a class="button" href="MARS - anniversaire Arnaud">📥 Télécharger l'événement</a>
+    <br>
+    <img src="qr_anniversaire_10_mars_2026.png" alt="QR code Anniversaire">
+    <p class="instructions">📱 Après avoir scanné, ouvrez le fichier téléchargé pour l’ajouter à votre agenda.</p>
+  </div>
+
+  <div class="event">
+    <h2>👑🥧 Galette des Rois au bureau</h2>
+    <p>6 janvier 2026 – 10h00</p>
+    <a class="button" href="galette_6_janvier_2026.ics">📥 Télécharger l'événement</a>
+    <br>
+    <img src="qr_galette_6_janvier_2026.png" alt="QR code Galette des Rois">
+    <p class="instructions">📱 Après avoir scanné, ouvrez le fichier téléchargé pour l’ajouter à votre agenda.</p>
+  </div>
+
+  <div class="event">
+    <h2>💝 Repas de Saint-Valentin</h2>
+    <p>14 février 2026 – 20h00</p>
+    <a class="button" href="saintvalentin_14_fevrier_2026.ics">📥 Télécharger l'événement</a>
+    <br>
+    <img src="qr_saintvalentin_14_fevrier_2026.png" alt="QR code Saint-Valentin">
+    <p class="instructions">📱 Après avoir scanné, ouvrez le fichier téléchargé pour l’ajouter à votre agenda.</p>
+  </div>
+
+</body>
+</html>
