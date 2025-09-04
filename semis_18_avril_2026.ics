@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendrier Arnaud & Aline//FR
+BEGIN:VEVENT
+UID:semis-2026-04-18@arnaud-aline
+DTSTAMP:20250904T063609
+DTSTART;TZID=Europe/Paris:20260418T140000
+DTEND;TZID=Europe/Paris:20260418T160000
+SUMMARY:Semer en famille les graines fournies 🌱
+LOCATION:Chez Arnaud & Aline
+DESCRIPTION:Après-midi conviviale de jardinage en famille pour semer les graines fournies. 🌱👨‍👩‍👧‍👦
+END:VEVENT
+END:VCALENDAR
