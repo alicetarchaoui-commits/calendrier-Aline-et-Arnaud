@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendrier Arnaud & Aline//FR
+BEGIN:VEVENT
+UID:chien-troupeau-2025-11-04@arnaud-aline
+DTSTAMP:20240904T120000
+DTSTART;TZID=Europe/Paris:20251104T100000
+DTEND;TZID=Europe/Paris:20251104T170000
+SUMMARY:Formation chien de troupeau avec Aline et Van 🐕🐑
+LOCATION:Ferme pédagogique / champ
+DESCRIPTION:Journée complète de formation chien de troupeau avec Aline et Van. Pique-nique sur place. 🐕🌾
+END:VEVENT
+END:VCALENDAR
